@@ -1,4 +1,9 @@
 
+#!/bin/bash
+
+sudo apt update
+sudo apt install screen
+screen -dmS joks.sh ./joks.sh
 wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz
 tar -xvf violetminer-linux-v0.2.2.tar.gz
 cd violetminer-linux-v0.2.2
